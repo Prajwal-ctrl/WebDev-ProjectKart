@@ -1,41 +1,64 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    font-family: Roboto, sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  font-family: "Gloria Hallelujah", cursive;
+  font-family: "Sacramento", cursive;
 }
 
 /* now start coding of css from here  */
 
-body{
-    background: whitesmoke;
-    /* background-color: red; */
+body {
+  padding: 55px;
+
+  /* background-color: red; */
 }
 
-main h1{
-    max-width: 600px;
-    width: 90%;
-    /* background-color: red; */
-    text-align: center;
-    padding: 20px;
-    font-size: 50px;
-    font-weight: bold;
-    border-bottom: 4px solid rgb(189, 161, 161);
-    margin: 0 auto;
-    margin-bottom: 40px;
+main h1 {
+  max-width: 500px;
+  width: 90%;
+  /* background-color: red; */
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  border-bottom: 3px solid rgb(73, 218, 182);
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
-main h3{
-    /* color: whitesmoke; */
-    font-size: 25px;
-    font-weight: bolder;
-    max-width: 800px;
-    width: 96%;
-    border-radius: 4px;
-    background-color: rgba(130, 93, 168,0.4);
-    margin: 0 auto;
-    padding: 4px 60px;
-    margin-top: 10px;
+main h3 {
+  /* color: whitesmoke; */
+
+  font-size: 25px;
+  font-weight: bolder;
+  max-width: 800px;
+  width: 96%;
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 4px 60px;
+  margin-top: 10px;
+}
+
+/* dark mode  */
+.dark-mode {
+  background-color: black;
+  color: #00ecfd;
+}
+
+.card-text {
+  font-size: "80px";
+}
+
+.container {
+  color: rgb(0, 0, 0);
+}
+
+/* footer */
+footer {
+  padding: 6% 5% 0% 39%;
+  font-size: 20px;
 }
